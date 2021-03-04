@@ -16,96 +16,345 @@
     />
     <!-- MDB -->
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <!-- Start your project here-->
-    <header>
-      <!-- Intro settings -->
-      <style>
-        /* Default height for small devices */
-        #intro-example {
-          height: 400px;
-        }
-    
-        /* Height for devices larger than 992px */
-        @media (min-width: 992px) {
-          #intro-example {
-            height: 600px;
-          }
-        }
-      </style>
-    
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-mdb-toggle="collapse"
-            data-mdb-target="#navbarExample01"
-            aria-controls="navbarExample01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarExample01">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- Navbar -->
-    
-      <!-- Background image -->
-      <div
-        id="intro-example"
-        class="p-5 text-center bg-image"
-        style="background-image: url('https://mdbootstrap.com/img/new/slides/041.jpg')"
-      >
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7)">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white">
-              <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
-              <h5 class="mb-4">Best & free guide of responsive web design</h5>
-              <a
-                class="btn btn-outline-light btn-lg m-2"
-                href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-                role="button"
-                rel="nofollow"
-                target="_blank"
-                >Start tutorial</a
-              >
-              <a
-                class="btn btn-outline-light btn-lg m-2"
-                href="https://mdbootstrap.com/docs/standard/"
-                target="_blank"
-                role="button"
-                >Download MDB UI KIT</a
-              >
-            </div>
-          </div>
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" data-aos="fade-down" data-aos-duration="10">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#">Titre</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">Link1</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="#">Link2</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active" aria-current="page" href="#">Link3</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <!-- Background image -->
-    </header>
+    </nav>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel" data-bs-interval="5">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10">
+          <img
+            src="https://mdbootstrap.com/img/new/slides/041.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="30000">
+          <img
+            src="https://mdbootstrap.com/img/new/slides/042.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <img
+            src="https://mdbootstrap.com/img/new/slides/043.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-mdb-target="#carouselExampleIndicators"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-mdb-target="#carouselExampleIndicators"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="row icon-boxes">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 cards" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <h4 class="title1">70.1 %</h4>
+              <p class="description">Of older people (> 60 years) have already been fooled by Internet scams</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 cards" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <h4 class="title2">70.1 %</h4>
+              <p class="description">Of older people (> 60 years) have already been fooled by Internet scams</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 cards" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <h4 class="title3">70.1 %</h4>
+              <p class="description">Of older people (> 60 years) have already been fooled by Internet scams</p>
+            </div>
+          </div>
+  
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 cards" data-aos="zoom-in" data-aos-delay="500">
+            <div class="icon-box">
+              <h4 class="title4">70.1 %</h4>
+              <p class="description">Of older people (> 60 years) have already been fooled by Internet scams</p>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section><!-- End Hero -->
+
+
+
+
+    <!-- Footer -->
+<footer class="bg-dark text-center text-white" >
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4" data-aos="flip-left">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" data-aos="flip-left">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"  >
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     <!-- End your project here-->
 
     <!-- MDB -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({once:true});
+    </script>
   </body>
 </html>
