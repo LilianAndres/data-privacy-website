@@ -1,0 +1,34 @@
+* {
+    border: red solid 1px;
+}
+
+/*--------------------------------------------------------------
+# Navbar 
+--------------------------------------------------------------*/
+.navbar>.container-fluid  {
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {  /* link navbar */
+    margin-right: 20px;
+}
+
+/*--------------------------------------------------------------
+# Scroll progress 
+--------------------------------------------------------------*/
+.progress-bar { 
+  transition: width 1s ease-out; 
+}
+
+.progress {
+  margin-top: 5.40vh;
+}
+
+
+/*--------------------------------------------------------------
+# Video
+--------------------------------------------------------------*/
+.container {
+    margin-top: 80vh;
+}
