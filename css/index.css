@@ -372,9 +372,7 @@ height: 40vh;
 background-color: #f8fbfe;
 }
 
-.counts {
-padding: 20px 0;
-}
+
 
 .counts .count-box {
 width: 100%;
@@ -389,6 +387,7 @@ font-weight: 700;
 color: #124265;
 margin-left: 80px;
 margin: auto;
+margin-top: 5vh;
 }
 
 .counts .count-box p {
@@ -397,6 +396,19 @@ font-family: "Raleway", sans-serif;
 font-weight: 600;
 font-size: 14px;
 color: #1e6ca6;
+margin-bottom: 5vh;
+}
+
+
+/*--------------------------------------------------------------
+# Q&A
+--------------------------------------------------------------*/
+.accordion {
+  margin-top: 15vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  width: 50%;
 }
 
 
