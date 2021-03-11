@@ -48,10 +48,7 @@
               <a class="nav-link active" href="tuto.html">Tutorials</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link active" aria-current="page" href="#">Link2</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link active" aria-current="page" href="#">Link3</a>
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
             </li>
           </ul>
         </div>
@@ -63,11 +60,11 @@
       </div>
     </div>
     
-    <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel" data-interval="1000">
-      <div class="carousel-indicators" >
+    <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel" data-interval="1000">
+      <div class="carousel-indicators">
         <button
           type="button"
-          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-target="#carouselExampleCaptions"
           data-mdb-slide-to="0"
           class="active"
           aria-current="true"
@@ -75,24 +72,28 @@
         ></button>
         <button
           type="button"
-          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-target="#carouselExampleCaptions"
           data-mdb-slide-to="1"
           aria-label="Slide 2"
         ></button>
         <button
           type="button"
-          data-mdb-target="#carouselExampleIndicators"
+          data-mdb-target="#carouselExampleCaptions"
           data-mdb-slide-to="2"
           aria-label="Slide 3"
         ></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active" >
+        <div class="carousel-item active">
           <img
             src="https://mdbootstrap.com/img/new/slides/041.jpg"
             class="d-block w-100"
             alt="..."
           />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img
@@ -100,19 +101,27 @@
             class="d-block w-100"
             alt="..."
           />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
         </div>
-        <div class="carousel-item" >
+        <div class="carousel-item">
           <img
             src="https://mdbootstrap.com/img/new/slides/043.jpg"
             class="d-block w-100"
             alt="..."
           />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-mdb-target="#carouselExampleIndicators"
+        data-mdb-target="#carouselExampleCaptions"
         data-mdb-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -121,7 +130,7 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-mdb-target="#carouselExampleIndicators"
+        data-mdb-target="#carouselExampleCaptions"
         data-mdb-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
