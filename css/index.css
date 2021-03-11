@@ -398,3 +398,12 @@ font-weight: 600;
 font-size: 14px;
 color: #1e6ca6;
 }
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.form-outline.form-white .form-control {
+  color: #fff; /* cursor color */
+  background: transparent;  /* bg color */
+}
