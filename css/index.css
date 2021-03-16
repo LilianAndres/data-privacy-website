@@ -42,7 +42,7 @@ transition: width 1s ease-out;
 }
 
 .progress {
-margin-top: 5.40vh;
+margin-top: 5.70vh;
 }
 
 @media screen  /* rendu 14 pouces */
@@ -355,7 +355,7 @@ height: 35vh;
 
 .right-text {
 padding: 20px;
-height: 40vh;
+height: 38vh;
 }
 
 
@@ -409,6 +409,14 @@ margin-bottom: 5vh;
   margin-right: 10vw;
 
   width: 50%;
+}
+
+
+/*--------------------------------------------------------------
+# Sources
+--------------------------------------------------------------*/
+.sources {
+  font-size: 20px;
 }
 
 
