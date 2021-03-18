@@ -42,7 +42,7 @@ transition: width 1s ease-out;
 }
 
 .progress {
-margin-top: 5.70vh;
+margin-top: 5.80vh;
 }
 
 @media screen  /* rendu 14 pouces */
@@ -404,13 +404,14 @@ margin-bottom: 5vh;
 # Q&A
 --------------------------------------------------------------*/
 .accordion {
-  margin-top: 15vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-
-  width: 50%;
+  width: 100%;
 }
 
+
+.col-md-4 img {
+  margin-left: 12vw;
+  margin-top: 9vh;
+}
 
 /*--------------------------------------------------------------
 # Sources
@@ -426,4 +427,9 @@ margin-bottom: 5vh;
 .form-outline.form-white .form-control {
   color: #fff; /* cursor color */
   background: transparent;  /* bg color */
+}
+
+.sami {
+  font-size: 20px;
+  margin-top: 1vh;
 }
