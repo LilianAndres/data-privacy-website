@@ -43,14 +43,19 @@
         >
           <i class="fas fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="#">Titre</a>
+        <a class="navbar-brand" href="#"><img
+          src="img/ICO_logo.png"
+          height="30"
+          alt=""
+          loading="lazy"
+        /> </a><h1 class="sami">Information Commissioner's office</h1>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link active" href="tuto.html">Tutorials</a>
+              <a class="nav-link active" href="tuto.html">Get informed</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link active" aria-current="page" href="about.html">About</a>
@@ -67,51 +72,77 @@
 
 
     <!-- ======= Q&A Section ======= -->
-    <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Collapsible Group Item #1
-              </button>
-            </h2>
-          </div>
-      
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is ICO ?
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Data protection is about ensuring people can trust you to use their data fairly and responsibly. <br> <br>
+                  If you collect information about individuals for any reason other than your own personal, 
+                  family or household purposes, you need to comply. The UK data protection regime is set out in the DPA 2018,
+                   along with the UK GDPR. It takes a flexible, risk-based approach which puts the onus on you to think about 
+                   and justify how and why you use data. <br><br>The ICO regulates data protection in the UK. 
+                   We offer advice and guidance, promote good practice, carry out audits, consider complaints, 
+                   monitor compliance and take enforcement action where appropriate.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Who are we ?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  STUDENTS
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Sources
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Videos :
+                  <ul>
+                    <li>Phasellus iaculis neque</li>
+                    <li>Purus sodales ultricies</li>
+                    <li>Vestibulum laoreet porttitor sem</li>
+                    <li>Ac tristique libero volutpat at</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
-              </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-              Some placeholder content for the second accordion panel. This panel is hidden by default.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-            </div>
-          </div>
+        <div class="col-md-4">
+          <img src="img/ICO_logo (1).png">
         </div>
       </div>
+    </div>
+
+
+    
     <!-- ======= End of Q&A Section ======= -->
 
 
@@ -122,34 +153,12 @@
   
           <div class="row justify-content-end">
   
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div>
               <div class="count-box">
                 <span id="count" data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
                 <p id="count2">Persons has visited the site !</p>
               </div>
             </div>
-  
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="2" class="purecounter"></span>
-                <p>Projects</p>
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="2" class="purecounter"></span>
-                <p>Years of experience</p>
-              </div>
-            </div>
-  
-            <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2" class="purecounter"></span>
-                <p>Awards</p>
-              </div>
-            </div>
-  
           </div>
   
         </div>
