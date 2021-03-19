@@ -147,7 +147,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 #hero .icon-box .title2{  /* gestion des couleurs */
-  color: yellow;
+  color: rgb(55, 134, 53);
 }
 
 #hero .icon-box .title3{  /* gestion des couleurs */
