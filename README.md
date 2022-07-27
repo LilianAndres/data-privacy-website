@@ -17,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/LilianAndres/data-privacy-website">
-    <img src="public/icons/pastablog.png" alt="Logo" width="130" height="110">
+    <img src="img/FAQ__question__mind__unknown__head-512.png" alt="Logo" width="130" height="135">
   </a>
 
 <h3 align="center">Think before you click</h3>
@@ -32,6 +32,8 @@
 ## About The Project
 
 Data Privacy is a huge issue nowadays. Everybody uses Internet, everybody buy online, everyone has a digital identity. The problem is that each personal data you share on the Internet could be potentially dangerous. That's why we built this website. It aims to help people understanding data privacy risks and it shows how to better protect yourself on the internet.
+
+NOTE : we played the role of the Information Commissioner's Office, it is a **fictive** role (school project context)
 
 
 ### Built With
