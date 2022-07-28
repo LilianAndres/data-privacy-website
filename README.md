@@ -38,6 +38,7 @@ NOTE : we played the role of the Information Commissioner's Office, it is a **fi
 
 ### Built With
 
+* [![Gitlab][Gitlab]][Gitlab-url]
 * [![Bootstrap][Bootstrap]][Bootstrap-url]
 * [![CSS][CSS]][CSS-url]
 
@@ -83,6 +84,8 @@ Project Link: [https://github.com/LilianAndres/data-privacy-website](https://git
 [license-shield]: https://img.shields.io/github/license/LilianAndres/data-privacy-website
 [license-url]: https://github.com/LilianAndres/data-privacy-website/blob/master
 [product-screenshot]: images/screenshot.png
+[Gitlab]: https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white
+[Gitlab-url]: https://about.gitlab.com
 [Bootstrap]: https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [CSS]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
